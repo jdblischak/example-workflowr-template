@@ -1,7 +1,7 @@
-name: "example-workflowr-template"
-output_dir: ../docs
+name: "{{name}}"
+output_dir: ../public
 navbar:
-  title: "example-workflowr-template"
+  title: "{{name}}"
   left:
   - text: Home
     href: index.html
